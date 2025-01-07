@@ -29,21 +29,33 @@ const Contact = () => {
         <p className="text-white/70 mb-6">
           Send me a message and lets schedule a call
         </p>
-        <form className="space-y-4">
+        <form
+          className="space-y-4"
+          action="https://getform.io/f/anllgpza"
+          method="POST"
+        >
           <div className="grid md:grid-cols-2 gap-4">
             <input
+              type="text"
+              name="name"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="First Name"
             />
             <input
+              type="text"
+              name="name"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="Last Name"
             />
             <input
+              type="email"
+              name="email"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="Email"
             />
             <input
+              type="phone"
+              name="phone"
               className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
               placeholder="Phone"
             />

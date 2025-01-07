@@ -1,35 +1,36 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import proj2 from "../assets/proj2.jpg";
+import stram from "../assets/stram.png";
+import Wel from "../assets/WEL.jpg";
 import proj3 from "../assets/proj3.png";
-import proj4 from "../assets/proj4.jpg";
+import dep2 from "../assets/dep2.jpeg";
 import { div } from "framer-motion/client";
 
 const projects = [
   {
-    title: "Banking App",
-    desc: "Users can deposit and Withdraw money",
+    title: "Depwith",
+    desc: "A full-stack app for seamless money deposits, withdrawals, and transaction tracking.",
     devStack: "MongoDB, Express, React, Node.js",
-    link: "#",
-    git: "#",
-    src: proj4,
+    link: "https://github.com/Expo-67/depwith",
+    git: "https://github.com/Expo-67/depwith",
+    src: dep2,
   },
   {
-    title: "Stramco App",
-    desc: "Hr consultancy and audit firm",
-    devStack: "MongoDB, Express, React, Node.js",
-    link: "#",
-    git: "#",
-    src: proj2,
+    title: "Stramco solutions",
+    desc: "A streamlined HR consultancy, audit, and job placement app connecting people with opportunities and helping them secure jobs.",
+    devStack: "HTML,CSS, Javascript, PHP, SQL",
+    link: "https://stramcosolutions.com/",
+    git: "https://github.com/Expo-67/Stramco-ltd.git",
+    src: stram,
   },
   {
-    title: "Big Belly Burger",
-    desc: "Reasturant for selling burgers and fries",
-    devStack: "MongoDB, Express, React, Node.js",
-    link: "#",
-    git: "#",
-    src: proj3,
+    title: "Service-Moti",
+    desc: "A full-stack app for tracking car maintenance and service history, powered by AI for personalized car care tips.",
+    devStack: "MongoDB, Express, React, Node.js, Next.js, Typescript",
+    link: "https://github.com/Expo-67/Service-moti",
+    git: "https://github.com/Expo-67/Service-moti",
+    src: Wel,
   },
 ];
 
@@ -43,7 +44,7 @@ const Portfolio = () => {
         Selected
         <span className="text-orange-400"> Projects</span>
       </h1>
-      <div className="max-w-[1000px] mx-auto space-y-24 mt-40">
+      <div className="px-6 md:px-0 max-w-[1000px] mx-auto space-y-24 mt-40">
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -51,9 +52,9 @@ const Portfolio = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className={`mt-12 flex ${
+            className={`mt-12 flex flex-col ${
               index % 2 === 1
-                ? "flex-col-reverse md:flex-row-reverse gap-12"
+                ? " md:flex-row-reverse gap-12"
                 : "flex-col md:flex-row"
             }`}
           >

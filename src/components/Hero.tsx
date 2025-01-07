@@ -3,7 +3,9 @@ import Image from "next/image";
 import cursor from "../assets/icon1.png";
 import lightning from "../assets/icon2.png";
 import { motion } from "framer-motion";
-import profilepic from "../assets/profilepic.png";
+
+import portfolio from "../assets/portfolio.jpg";
+import port from "../assets/port.jpg";
 
 const Hero = () => {
   return (
@@ -16,10 +18,13 @@ const Hero = () => {
       <div className="relative">
         <div className="text-8xl font-bold text-center">
           <h1 className="text-[#98B4CE]"> Hi, I am</h1>
-          <h1 className="text-[#E48A57]">James N. </h1>
+          <h1 className="text-[#E48A57]">James Kinungi. </h1>
         </div>
 
-        <motion.div className="absolute left-[280px] top-[170px]" drag>
+        <motion.div
+          className="hidden md:block absolute left-[280px] top-[170px]"
+          drag
+        >
           <Image
             src={cursor}
             height="170"
@@ -30,7 +35,10 @@ const Hero = () => {
           />
         </motion.div>
 
-        <motion.div className="absolute right-[220px] top-[20px]" drag>
+        <motion.div
+          className="hidden md:block absolute right-[220px] top-[20px]"
+          drag
+        >
           <Image
             src={lightning}
             height="120"
@@ -44,13 +52,12 @@ const Hero = () => {
         <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
           I am a Full-Stack Developer skilled in building scalable, user-centric
           software applications using React, Node.js, JavaScript, and
-          TypeScript. Currently enhancing my expertise in full-stack development
-          at GomyCode Kenya.
+          TypeScript.
         </p>
         <Image
-          src={profilepic}
-          alt="profilepicture"
-          className="h-auto w-auto mx-auto"
+          src={port}
+          alt="portfolio"
+          className="h-auto w-auto mx-auto rounded-lg overflow-hidden"
         />
       </div>
     </div>
