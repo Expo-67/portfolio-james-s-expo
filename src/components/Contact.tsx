@@ -5,8 +5,9 @@ import mail from "../assets/email.png";
 const Contact = () => {
   return (
     <div
-      className="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8
-                    rounded-lg space-y-8 lg:space-y-0 lg:space-x-8"
+      className=" bg-[#1a2a3a]
+mx-auto px-4 py-8 pb-10 flex flex-col lg:flex-row text-white/70 p-8
+                    rounded-lg space-y-8 lg:space-y-0 lg:space-x-8 "
       id="contact"
     >
       <div className=" flex justify-center items-center">
@@ -22,7 +23,10 @@ const Contact = () => {
         </ul>
       </div>
 
-      <div className="bg-white/10 p-6 rounded-xl max-w-[550px]">
+      <div
+        className="bg-gradient-to-b from-black to-[#1a2a3a]
+ p-6 rounded-xl max-w-[550px]"
+      >
         <h2 className="text-5xl font-bold text-orange-400 mb-4">
           Lets connect
         </h2>

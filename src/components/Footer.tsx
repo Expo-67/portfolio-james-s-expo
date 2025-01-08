@@ -4,7 +4,9 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div
-      className="mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 
+      className="bg-[#1a2a3a]
+mx-auto  py-8  
+ text-white/90 border-t border-gray-700 
   pt-4 flex justify-between items-center"
     >
       <h1 className="text-2xl font-bold">James Ndungu</h1>

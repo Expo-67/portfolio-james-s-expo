@@ -47,7 +47,7 @@ const About = () => {
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto px-4 py-8" id="about">
+    <div className="bg-black mx-auto px-4 py-8" id="about">
       <h1 className="text-white text-4xl md:text-6xl max-w-[320px] mx-auto font-semibold mb-8 text-center">
         About <span className="text-orange-400">Me</span>
       </h1>

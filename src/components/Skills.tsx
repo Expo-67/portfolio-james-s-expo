@@ -29,7 +29,10 @@ const skillIcons = [
 
 const Skills = () => {
   return (
-    <div className="bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-32">
+    <div
+      className="bg-[#1a2a3a]
+mx-auto px-4 py-8 pb-10"
+    >
       <div className="text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center">
         <h2 className="text-6xl font-bold mb-4">What I do</h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">

@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-white/70 pt-6">
+    <div className="text-white/100 bg-black pt-6">
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center px-4 mx-auto max-w-[400px]">
         <ul className="flex flex-row p-4 space-x-8">
