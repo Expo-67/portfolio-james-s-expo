@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import stram from "../assets/stram.png";
 import Wel from "../assets/WEL.jpg";
 import dep2 from "../assets/dep2.jpeg";
-import { div } from "framer-motion/client";
 
 const projects = [
   {
