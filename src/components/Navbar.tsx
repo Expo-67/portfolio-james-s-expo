@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const navLinks = [
   { title: "About", path: "#about" },
   { title: "Portfolio", path: "#portfolio" },
-  { title: "Contact", path: "#contact" }, // Fixed duplicate titles
+  { title: "Contact", path: "#contact" }, //  titles
 ];
 
 const Navbar = () => {

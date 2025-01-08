@@ -1,6 +1,6 @@
 import Image from "next/image";
 import phone from "../assets/phone.png";
-import mail from "../assets/mail.png";
+import mail from "../assets/email.png";
 
 const Contact = () => {
   return (
@@ -27,7 +27,7 @@ const Contact = () => {
           Lets connect
         </h2>
         <p className="text-white/70 mb-6">
-          Send me a message and lets schedule a call
+          Send me a message and lets connect!
         </p>
         <form
           className="space-y-4"

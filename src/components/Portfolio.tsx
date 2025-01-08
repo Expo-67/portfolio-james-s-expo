@@ -3,7 +3,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import stram from "../assets/stram.png";
 import Wel from "../assets/WEL.jpg";
-import proj3 from "../assets/proj3.png";
 import dep2 from "../assets/dep2.jpeg";
 import { div } from "framer-motion/client";
 
@@ -11,7 +10,7 @@ const projects = [
   {
     title: "Depwith",
     desc: "A full-stack app for seamless money deposits, withdrawals, and transaction tracking.",
-    devStack: "MongoDB, Express, React, Node.js",
+    devStack: "MongoDB, Express, Reactjs, Node.js",
     link: "https://github.com/Expo-67/depwith",
     git: "https://github.com/Expo-67/depwith",
     src: dep2,
@@ -27,7 +26,7 @@ const projects = [
   {
     title: "Service-Moti",
     desc: "A full-stack app for tracking car maintenance and service history, powered by AI for personalized car care tips.",
-    devStack: "MongoDB, Express, React, Node.js, Next.js, Typescript",
+    devStack: "MongoDB, Express, React-ts, Node.js and Next.js",
     link: "https://github.com/Expo-67/Service-moti",
     git: "https://github.com/Expo-67/Service-moti",
     src: Wel,

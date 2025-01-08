@@ -24,7 +24,7 @@ const skillIcons = [
   { icon: <SiNextdotjs size={140} color="#000000" />, label: "Next.js" },
   { icon: <FaNodeJs size={140} color="#339933" />, label: "Node.js" },
   { icon: <SiExpress size={140} color="#000000" />, label: "Express.js" },
-  { icon: <FaDatabase size={140} color="#F29111" />, label: "Databases" },
+  { icon: <FaDatabase size={140} color="#4479A1" />, label: "SQL" },
   { icon: <SiMongodb size={140} color="#47A248" />, label: "MongoDB" },
 ];
 

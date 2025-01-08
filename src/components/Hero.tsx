@@ -3,8 +3,6 @@ import Image from "next/image";
 import cursor from "../assets/icon1.png";
 import lightning from "../assets/icon2.png";
 import { motion } from "framer-motion";
-
-import portfolio from "../assets/portfolio.jpg";
 import port from "../assets/port.jpg";
 
 const Hero = () => {
@@ -18,7 +16,7 @@ const Hero = () => {
       <div className="relative">
         <div className="text-8xl font-bold text-center">
           <h1 className="text-[#98B4CE]"> Hi, I am</h1>
-          <h1 className="text-[#E48A57]">James Kinungi. </h1>
+          <h1 className="text-[#E48A57]">James Ndungu. </h1>
         </div>
 
         <motion.div
@@ -50,9 +48,9 @@ const Hero = () => {
         </motion.div>
 
         <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
-          I am a Full-Stack Developer skilled in building scalable, user-centric
-          software applications using React, Node.js, JavaScript, and
-          TypeScript.
+          I am a Software Developer skilled in building scalable, user-centric
+          software applications using Mongo DB, Express, React, Node.js, and
+          Typescript
         </p>
         <Image
           src={port}
